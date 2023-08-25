@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/npx-folder/build/static/css/main.073c9b0a.css",
+    "main.js": "/npx-folder/build/static/js/main.e2bedf10.js",
+    "static/js/787.af351779.chunk.js": "/npx-folder/build/static/js/787.af351779.chunk.js",
+    "static/media/logo.svg": "/npx-folder/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/npx-folder/build/index.html",
+    "main.073c9b0a.css.map": "/npx-folder/build/static/css/main.073c9b0a.css.map",
+    "main.e2bedf10.js.map": "/npx-folder/build/static/js/main.e2bedf10.js.map",
+    "787.af351779.chunk.js.map": "/npx-folder/build/static/js/787.af351779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e2bedf10.js"
+  ]
+}
