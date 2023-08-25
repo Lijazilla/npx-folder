@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://lijazilla.github.io/npx-folder/build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b main -d builds",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +12,22 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-pdf/renderer": "^3.1.12",
+    "date-fns": "^2.30.0",
+    "favicons": "^7.1.3",
+    "file-saver": "^2.0.5",
+    "pdf-lib": "^1.17.1",
+    "pica": "^9.0.1",
+    "react-favicon": "^2.0.3",
+    "react-icons": "^4.10.1",
+    "react-pdf": "^7.1.2",
+    "react-router-dom": "^6.14.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,8 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   }
 }
